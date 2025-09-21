@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html lamg="en">
+<html lang="en" data-page="services">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"content="width=device-width">
-	<title>Builders Elite Contractors inc.</title>
-	<link rel="stylesheet"href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Builders Elite</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<img src="banner.JPG">
-		<nav>
-			<ul>
-				<li><a href="home.html">Home</a></li>
-				<li><a href="one.html">Egress Windows</a></li>
-				<li><a href="two.html">Bathrooms</a></li>
-				<li><a href="three.html">Framing</a></li>
-				<li><a href="four.html">Flooring</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-				<div class="product-grid">
-					<img src="window1.jpg">
-					<img src="window2.jpg">
-					<img src="window3.jpg">
-					<img src="window4.jpg">
-					<img src="window5.jpg">
-					<img src="window6.jpg">
-					<img src="window7.jpg">
-					<img src="window8.jpg">
-				</div>
-			</section>
-		</main>
-		<footer>
-	<h2>Contact Information</h2>
-	<p>Email is builderseliteinc@gmail.com</p>
-<p>Olie contractor phone number 289-260-3416</p>
-<p>Head office is 304-5 Viking Crt, Grimsby ON L3M 3T8</p>
-</footer>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="home.html">Builders Elite</a>
+      <button class="nav-toggle">☰</button>
+      <nav class="nav-links">
+        <a href="home.html">Home</a>
+        <a class="active" href="one.html">Services</a>
+        <a href="two.html">Portfolio</a>
+        <a href="three.html">About</a>
+        <a class="btn-cta" href="four.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <main class="container section">
+    <h1 class="section-title">Our Expertise</h1>
+    <p class="section-desc">Every service we offer is guided by decades of experience and a passion for excellence.</p>
+
+    <article class="service reveal">
+      <div class="service-media"><img src="bathroom1.jpg" alt="Luxury bathroom remodel"></div>
+      <div class="service-body">
+        <h2>Bathrooms</h2>
+        <p>We design and build spa-like bathrooms that combine modern amenities with timeless finishes. Heated floors, walk-in showers, custom vanities, and elegant tiling — each element carefully curated for comfort and sophistication.</p>
+      </div>
+    </article>
+
+    <article class="service reveal">
+      <div class="service-media"><img src="flooring1.jpg" alt="Elegant flooring"></div>
+      <div class="service-body">
+        <h2>Flooring</h2>
+        <p>Your flooring sets the tone for your home. Whether you prefer rich hardwood, marble, or luxury vinyl, we deliver flawless installations that blend durability with beauty.</p>
+      </div>
+    </article>
+
+    <article class="service reveal">
+      <div class="service-media"><img src="framing.jpg" alt="Precision framing"></div>
+      <div class="service-body">
+        <h2>Framing</h2>
+        <p>Strong, precise framing is the backbone of every successful renovation. Our skilled craftsmen ensure structural integrity while accommodating modern designs and layouts.</p>
+      </div>
+    </article>
+
+    <article class="service reveal">
+      <div class="service-media"><img src="window1.jpg" alt="Window installation"></div>
+      <div class="service-body">
+        <h2>Windows</h2>
+        <p>We install premium, energy-efficient windows that bring natural light and elegance into your space, while reducing energy costs and increasing comfort year-round.</p>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer">
+      <div><strong>Builders Elite Contractors Inc.</strong></div>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
 </body>
 </html>
