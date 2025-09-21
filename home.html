@@ -1,44 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page="home">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Builders Elite Contractors inc.</title>
-	<link rel="stylesheet"href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Builders Elite Contractors Inc. | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<img src="banner.JPG"width=50px>
-		<nav>
-			<ul>
-				<li><a href="home.html">Home</a></li>
-				<li><a href="one.html">Egress Windows</a></li>
-				<li><a href="two.html">Bathrooms</a></li>
-				<li><a href="three.html">Framing</a></li>
-				<li><a href="four.html">Flooring</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h1>About Us</h1>
-			<p> About Us
-We are a family owned and operated Renovation company that values quality.
-With over 30 years of experience in construction and renovation industry we only give
-our 150 percent to our clients. We take pride in our workmanship and our commitment
-to professionalism. We create meaningful work and have positive relationships with our
-clients, they become family! 
-We specialize in bathroom and basement renovation, but we do everything from
-waterproofing to flooring.</p>
-<p></p>
-<img src="main.JPG.jpeg">
-</section>
-</main>
-<footer>
-	<h2>Contact Information</h2>
-	<p>Email is builderseliteinc@gmail.com</p>
-<p>Olie contractor phone number 289-260-3416</p>
-<p>Head office is 304-5 Viking Crt, Grimsby ON L3M 3T8</p>
-</footer>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="home.html">Builders Elite</a>
+      <button class="nav-toggle" aria-label="Open Menu">☰</button>
+      <nav class="nav-links">
+        <a class="active" href="home.html">Home</a>
+        <a href="one.html">Services</a>
+        <a href="two.html">Portfolio</a>
+        <a href="three.html">About</a>
+        <a class="btn-cta" href="four.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero reveal">
+    <div class="hero-overlay">
+      <h1 class="headline">Transforming Spaces Into Timeless Luxury</h1>
+      <p class="subhead">Family-owned craftsmanship • Over 30 years of excellence in Niagara</p>
+      <div class="hero-cta">
+        <a class="btn" href="one.html">Explore Services</a>
+        <a class="btn btn-outline" href="four.html">Request Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="container section reveal">
+    <h2 class="section-title">Where Elegance Meets Craftsmanship</h2>
+    <p class="section-desc">
+      At Builders Elite Contractors Inc., we bring visions to life with a blend of artistry and precision. 
+      From stunning bathrooms to elegant basements, we craft every detail with care, ensuring each project 
+      not only meets expectations, but exceeds them. We believe your home deserves nothing less than luxury.
+    </p>
+  </section>
+
+  <!-- Stats -->
+  <section class="badges container reveal">
+    <div class="badge"><span class="num" data-counter="30">0</span>+ Years of Experience</div>
+    <div class="badge"><span class="num" data-counter="500">0</span>+ Successful Projects</div>
+    <div class="badge"><span class="num" data-counter="5">0</span>★ Client Satisfaction</div>
+    <div class="badge">Licensed • Insured • WSIB Covered</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer">
+      <div><strong>Builders Elite Contractors Inc.</strong></div>
+      <div><a href="tel:+12892289961">(289) 228-9961</a> • <a href="mailto:souheil.jadd@gmail.com">souheil.jadd@gmail.com</a></div>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
 </body>
 </html>
