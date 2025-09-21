@@ -1,48 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page="portfolio">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"content="width=device-width">
-	<title>Builders Elite Contractors inc.</title>
-	<link rel="stylesheet"href="style.css">
-	</head>
-	<body>
-		<header>
-			<img src="banner.JPG">
-			<nav>
-				<ul>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="one.html">Egress Windows</a></li>
-					<li><a href="two.html">Bathrooms</a></li>
-					<li><a href="three.html">Framing</a></li>
-					<li><a href="four.html">Flooring</a></li>
-                </ul>
-            </nav>
-            </header>
-            <main>
-                <section>
-                    <div class="product-grid">
-                        <img src="bathroom1.jpg">
-                        <img src="bathroom2.jpg">
-                        <img src="bathroom3.jpg">
-                        <img src="bathroom4.jpg">
-                        <img src="bathroom5.jpg">
-                        <img src="bathroom6.jpg">
-                        <img src="bathroom7.jpg">
-                        <img src="bathroom8.jpg">
-                        <img src="bathroom9.jpg">
-                        <img src="bathroom10.jpg">
-                        <img src="bathroom11.jpg">
-                        <img src="bathroom12.jpg">
-                    </div>
-                </section>
-            </main>
-            <footer>
-                <h2>Contact Information</h2>
-	<p>Email is builderseliteinc@gmail.com</p>
-<p>Olie contractor phone number 289-260-3416</p>
-<p>Head office is 304-5 Viking Crt, Grimsby ON L3M 3T8</p>
-            </footer>
-            </body>
-            </html>
-            
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Builders Elite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="home.html">Builders Elite</a>
+      <button class="nav-toggle">☰</button>
+      <nav class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="one.html">Services</a>
+        <a class="active" href="two.html">Portfolio</a>
+        <a href="three.html">About</a>
+        <a class="btn-cta" href="four.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio -->
+  <main class="container section">
+    <h1 class="section-title">Our Work</h1>
+    <p class="section-desc">Each project is a reflection of our dedication to timeless design and flawless execution.</p>
+
+    <div class="masonry reveal" data-lightbox>
+      <a href="bathroom2.jpg"><img src="bathroom2.jpg" alt="Bathroom remodel"></a>
+      <a href="bathroom5.jpg"><img src="bathroom5.jpg" alt="Modern bathroom"></a>
+      <a href="flooring3.jpg"><img src="flooring3.jpg" alt="Luxury flooring"></a>
+      <a href="framing2.jpg"><img src="framing2.jpg" alt="Framing work"></a>
+      <a href="window3.jpg"><img src="window3.jpg" alt="Window installation"></a>
+      <a href="bathroom9.jpg"><img src="bathroom9.jpg" alt="Elegant bathroom"></a>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" hidden>
+      <button class="lightbox-close">×</button>
+      <img class="lightbox-img" alt="">
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer">
+      <div><strong>Builders Elite Contractors Inc.</strong></div>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
